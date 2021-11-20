@@ -1,0 +1,104 @@
+/*********** Import font family *********/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+  h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: 1em;
+    font-weight: 400; 
+    margin-top: 40px;
+  }
+
+  .box {
+    border: 1px solid black;
+    background-color: #BDBDBD;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+  }
+
+  span {
+    font-size: 1.25em;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: 500;
+    text-align: center;
+    float: right; 
+    top :0; 
+    right: 0; 
+    margin: 0;
+    position: absolute;
+  }
+
+  #title-box-1 {
+    background-color: #FC7575;
+    color: #000000;
+  }
+
+  #title-box-2 {
+    background-color: #DB2B2B;
+    color: #000000;
+  }
+
+  #title-box-3 {
+    background-color: #FFC300;
+    color: #000000;
+  }
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+      
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+   
+    .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+    .col-md-12 {
+      width: 100%;
+      float: left;
+    }
+  }
+  
+  /********* Small devices only ************/
+
+  @media (max-width: 767px) {
+   
+      .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+  }

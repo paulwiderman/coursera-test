@@ -1,0 +1,73 @@
+/*********** Import font family *********/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #A2A2A2;
+}
+
+#navbrand.navbar-brand {
+    color: #fff;
+}
+
+
+h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+    text-align: center;
+    
+}
+  
+#nav-list a {
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #f00;
+    font-weight: 600;
+}
+
+#main-section {
+    height: 1000px;
+    background-color: #A2A2A2;
+}
+
+
+   /* Simple Responsive Framework. */
+.row {
+    width: 100%;
+  }
+  
+  /********** Large devices only **********/
+@media (min-width: 992px) {
+  }
+  
+  
+  /********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  }
+     
+  /********* Small devices only ************/
+
+@media (max-width: 767px) {
+   
+
+  }
