@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "module2-solution"
+		},
+		{
+			"path": "..\\fullstack-course4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "coursera-test"
+	}
+}
